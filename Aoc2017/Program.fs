@@ -7,7 +7,6 @@ module Aoc =
 
     [<EntryPoint>]
     let main argv =
-        let day1_input = readFile "Day1_input.txt"
-        stdout.WriteLine day1_input
+        printfn "%i" <| Day1.part1 ()
         ignore <| stdin.ReadLine()
         0
