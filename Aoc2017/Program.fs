@@ -7,6 +7,8 @@ module Aoc =
 
     [<EntryPoint>]
     let main argv =
-        printfn "%i" <| Day1.part1 ()
+        //printfn "%i" <| Day1.part1_a ()
+        //printfn "%i" <| Day1.part1_b ()
+        printfn "%i" <| Day1.part2_a ()
         ignore <| stdin.ReadLine()
         0
